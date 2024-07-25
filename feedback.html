@@ -1,0 +1,154 @@
+<html>
+<head>
+<style>
+body
+{
+background-image:url("table.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+table{
+padding-left:700px;
+}
+td
+{
+font-size:20px;
+}
+ button{
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+</style>
+<script language="javascript">
+function validation1()
+{
+ 
+	if(document.getElementById("txtFullName").value=='')
+	{
+		alert("Please enter your full name");
+		document.getElementById("txtFullName").focus();
+		return false;	
+	}  	
+	if(document.getElementById("txtEmailId").value=='')
+	{
+	    alert("Please enter your email address");
+		document.getElementById("txtEmailId").focus();
+		return false;
+	}
+	else if(document.getElementById("txtEmailId").value!='')
+	{
+		var re = /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
+		if(!document.getElementById("txtEmailId").value.match(re))
+		{
+			alert("Please enter a valid email address");
+			document.getElementById("txtEmailId").focus();
+			return false;
+		}
+	}  	
+	
+	if ( (document.getElementById("txtMobileNumber").value=='') && (document.getElementById("txtLandLineNumber").value=='') )
+	{
+		alert("Please enter either mobile number or landline number");
+		document.getElementById("txtMobileNumber").focus();
+		return false;	
+	}
+	
+	if(document.getElementById("txtOccupation").value=='')
+	{
+		alert("Please enter your occupation");
+		document.getElementById("txtOccupation").focus();
+		return false;	
+	}  
+	
+	if(document.getElementById("txtPresentLocation").value=='')
+	{
+		alert("Please enter your present location");
+		document.getElementById("txtPresentLocation").focus();
+		return false;	
+	} 
+
+	if(document.getElementById("txtFeedBack").value=='')
+	{
+		alert("Please enter your feedback");
+		document.getElementById("txtFeedBack").focus();
+		return false;	
+	}
+alert("Thank you");	  
+}
+</script>
+</head>
+<body>
+<div class="cntainer">
+<h1 align="center" style="color:white; font-size:100px; font-family:Comic Sans MS;"> Feedback</h1>
+
+    <form method="post" id="form1">
+<font size="50px">
+		<table cellSpacing="1" cellPadding="3" width="90%" align="center">
+			<tr>
+			<td><strong>Full Name</strong></td>
+			<td height="30">:
+			</td>
+<td><input name="txtFullName" type="text" maxlength="30" id="txtFullName" class="textarea" /></td>					
+</tr>
+<tr >
+<td><strong>Email ID</strong></td>
+<td height="30">:
+</td>
+<td><input name="txtEmailId" type="text" maxlength="100" id="txtEmailId" class="textarea" /></td>
+</tr>
+	<TR>
+<TD><STRONG>Mobile Number</STRONG></TD>
+<TD height="30">:
+</TD>
+<TD><input name="txtMobileNumber" type="text" maxlength="15" id="txtMobileNumber" class="textarea" OnKeyPress="javascript:return allowOnlyNumbers(event);" /></TD>
+</TR>
+<TR>
+<TD>
+<P><STRONG>Landline Number<BR>
+</STRONG>(Eg: 0863-2351725)</P>
+</TD>
+<TD height="30">:
+</TD>
+		<TD vAlign="top"><input name="txtLandLineNumber" type="text" maxlength="20" id="txtLandLineNumber" class="textarea" /></TD>
+	</TR>
+	<tr >
+	<td><strong>Occupation</strong></td>
+	<td height="30">:
+	</td>
+<td><input name="txtOccupation" type="text" maxlength="100" id="txtOccupation" class="textarea" /></td>
+		</tr>
+<tr >
+	<td><strong>Location</strong></td>
+<td height="30">:
+	</td>
+<td><input name="txtPresentLocation" type="text" maxlength="100" id="txtPresentLocation" class="textarea" /></td>
+	</tr>
+	<tr >
+<td><strong>Feedback / Suggestions</strong></td>
+	<td height="30">:</td>
+<td><textarea name="txtFeedBack" rows="2" cols="20" id="txtFeedBack" class="textarea" style="height:203px;width:256px;">
+</textarea></td>
+</tr>
+<tr >
+<td colSpan="3" height="10">&nbsp;</td>
+</tr>
+<tr >
+<td colSpan="3" height="30">
+	<div align="center">
+<button onclick="validation1();">Submit</button>
+	</td>
+</tr>
+</table>
+</font>
+ </form>
+
+</div>
+
+</body>
+</html>

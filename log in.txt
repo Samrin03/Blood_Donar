@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>login</title>
+<style>
+  body
+    {
+     background: #e39358;
+    font-family: 'Rubik', sans-serif;
+    }
+</head>
+<body>
+<div class="login-form">
+  <form>
+    <h1>Login</h1>
+    <div class="contaiiner">
+      <input type="email" name="email" value="Email"          autocomplete="nope">
+       <input type="password" name="password" value="Password">
+       <a href="#" class="link">Forgot your password?</a>
+     </div>
+     <div class="button">
+       <button >Log in</button>
+     </div>
+  </form>
+</div>
+<scrip>
+</script>
+</body>
+</html>
+

@@ -1,0 +1,8 @@
+<html>
+<head>
+</head>
+<body>
+<img src="image1.jpg" alt="loading" height="50%" width:"80%">
+<p align="center">Thank You!!</p>
+</body>
+</html>

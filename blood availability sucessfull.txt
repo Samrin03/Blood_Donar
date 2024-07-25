@@ -1,0 +1,10 @@
+<html>
+<head>
+</head>
+<body>
+<img src="fqs1.jpg" alt="loading>
+<p>Thank You!!</p>
+<p>We will immediately mail you availability details</p>
+<p> Check your mails</p> 
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<body>
+<h1 align="center"> Check Blood Group Availability Here!!</h1>
+<label for="Name">Enter Name:</label><br>
+<input type="text" name="name"><br>
+<label for="Name">Enter Contact no:</label><br>
+<input type="number" name="name"><br>
+<label for="Name">Email id:</label><br>
+<input type="mail" name="name"><br>
+<label for="Name">Address:</label><br>
+<input type="text" name="name"><br>
+<label for="Name">City:</label><br>
+<input type="text" name="name"><br>
+<label for="Name">state:</label><br>
+<input type="text" name="name"><br>
+<label for="Name">Blood Group:</label><br>
+<input type="text" name="name"><br>
+<button>Check</button>
+</body>
+</html>
+
+
+
+
+
+

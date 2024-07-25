@@ -1,0 +1,41 @@
+<html>
+<head>
+</head>
+<body>
+<div class="container">
+<h1>ADVANTAGES OF BLOOD DONATION</h1>
+<br>
+<h4>Donating blood can seem intimidating, but it’s an easy process that can help save someone’s life.</h4>
+<p>There’s no end to the benefits of donating blood for those who need it. According to the American Red Cross, one donation can save as many as three lives, and someone in the United States needs blood every two seconds.</p>
+<br>
+<p>It turns out that donating blood doesn’t just benefit recipients. There are health benefits for donors, too, on top of the benefits that come from helping others. Read on to learn the health benefits of donating blood and the reasons behind them.</p>
+<h1>Benefits</h1>
+<p>Donating blood has benefits for your emotional and physical health. According to a report by the Mental Health Foundation, helping others can:</p>
+<br>
+<li>reduce stress</li>
+<li>improve your emotional well-being</li>
+<li>benefit your physical health</li>
+<li>help get rid of negative feelings</li>
+<li>provide a sense of belonging and reduce isolation</li>
+<li>Research has found further evidence of the health benefits that come specifically from donating blood.</li>
+<h1>Free health checkup</h1>
+<p>In order to give blood, you’re required to undergo a health screening. A trained staff member performs this checkup. They’ll check your:</p>
+<br>
+<li>pulse</li>
+<li>blood pressure</li>
+<li>body temperature</li>
+<li>hemoglobin levels</li>
+<li>This free mini-physical can offer excellent insight into your health. It can effectively detect problems that could indicate an underlying medical condition or risk factors for certain diseases.</li>
+<br>
+<p>Your blood is also tested for several diseases. These include:</p>
+<br>
+<li>hepatitis B</li>
+<li>hepatitis C</li>
+<li>HIV</li>
+<li>West Nile virus</li>
+<li>syphilis</li>
+<li>Trypanosoma cruzi</li>
+</body>
+</html>
+
+

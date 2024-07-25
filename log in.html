@@ -1,0 +1,71 @@
+
+<html>
+<head>
+<title>login</title>
+<style>
+.space
+{
+margin-top:150px;
+width: 50%;
+height:50%;
+border:1px solid white;
+border-collapse: collapse;
+background-image:url("login.jpg");
+ background-repeat: no-repeat;
+  background-size: cover;
+}
+ button{
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+button:hover{
+   background-color:green;
+   }
+td{
+ text-align:center;
+ color:white;
+}
+</style>
+</head>
+<body bgcolor="lavender">
+<form method="post" action="login.php">
+<table class="space" align="center">
+<tr>
+<td>
+  <h1><u>LOG IN</u></h1>
+</td>
+</tr>
+<tr>
+<td>
+<label for="Username" style="font-size:25px;font-family:verdana;">Username:</label>
+<input type="text" name="name" value=" " style="height:30px; width:200px;">
+</td>
+</tr>
+<tr>
+<td>
+<label for="password"  style="font-size:25px;font-family:verdana;">Password:</label>
+ <input type="text" name="password" value=" " style="height:30px; width:200px;">
+</td>
+</tr>
+<tr>
+<td>
+ Forget your password?
+</td>
+</tr>
+<tr>
+<td align="center">
+<button>Sign in</button>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
